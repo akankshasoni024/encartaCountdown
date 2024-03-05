@@ -1,0 +1,114 @@
+.mainWrapper {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time_container {
+  background-color: #d9d9d9;
+  color: #050d22;
+  padding: 4px;
+  margin: 10px;
+}
+
+.time_colon {
+  color: #d9d9d9;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.clock {
+  padding: 5px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 20px;
+}
+
+.day {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.time_meridien {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d9d9d9;
+}
+
+.timer {
+  font-family: "Courier New", monospace;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem;
+  font-size: 10rem;
+}
+.down {
+  top: 40px;
+  position: relative;
+  font-size: 3rem;
+  padding: 0 20px 0 5px;
+}
+
+.wrapper {
+  margin: auto;
+  width: fit-content;
+  position: absolute;
+  top: 15%;
+}
+
+body {
+  /* background-image: url("../../assets/bg.jpeg"); */
+  background-color: #f4f4f4;
+  background-size: cover; /* Adjust the size of the background image */
+  background-position: center; /* Center the background image */
+  height: 100vh;
+}
+
+.block {
+  font-family: "Digital-7", sans-serif; /* Use 'sans-serif' as a fallback */
+
+  /* margin: 2rem;
+  padding: 2rem; */
+  text-align: center;
+  font-weight: bold;
+  /* box-shadow: 0 0 10px rgba(73 73 73 / 70%); Adjust the color and intensity as needed */
+
+  /* Blurred background */
+  /* backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
+  /*background-color: rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  width: 200px;
+  border-radius: 4px; */
+}
+
+.header {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 400;
+}
+
+.footer {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Digital-7";
+  src: url("../../assets/fonts/digital_7/digital-7\ \(mono\).ttf")
+    format("truetype"); /* Adjust the font file path and format as needed */
+}
+
+.confetti {
+  text-align: center;
+}
