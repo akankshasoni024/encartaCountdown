@@ -1,0 +1,82 @@
+.mainWrapper {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 400;
+}
+
+.timer {
+  font-family: "Courier New", monospace;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem;
+  font-size: 10rem;
+}
+
+.down {
+  top: 40px;
+  position: relative;
+  font-size: 3rem;
+  padding: 0 20px 0 5px;
+}
+
+.wrapper {
+  margin: auto;
+  position: absolute;
+  top: 15%;
+  max-width: 100%;
+}
+
+body {
+  background-color: #f4f4f4;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.block {
+  font-family: "Digital-7", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Digital-7";
+  src: url("../../assets/fonts/digital_7/digital-7\ \(mono\).ttf")
+    format("truetype"); /* Adjust the font file path and format as needed */
+}
+
+.confetti {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .timer {
+    font-size: 3rem;
+    padding: 0 5px 0 2px;
+  }
+  .down {
+    font-size: 20px;
+    top: 010px;
+  }
+  .header {
+    padding: 1rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+}
